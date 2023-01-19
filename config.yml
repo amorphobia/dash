@@ -105,7 +105,7 @@ services:
         icon: "fas fa-server"
         type: "Ping"
         subtitle: "Ping 一下服务器是否在线"
-        url: "http://localhost.xuesong.io"
+        url: "http://localhost.xuesong.io:38080/ping"
         method: "head"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
