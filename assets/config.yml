@@ -101,6 +101,11 @@ services:
         subtitle: "路由器管理"
         url: "http://192.168.2.1/"
         target: "_blank"
+      - name: "Ping"
+        icon: "fa-regular fa-network-wired"
+        subtitle: "Ping 一下服务器是否在线"
+        url: "localhost.xuesong.io"
+        method: "head"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
