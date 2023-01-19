@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
       - name: Download Homer Release
         uses: robinraju/release-downloader@v1.7
@@ -22,7 +20,7 @@ jobs:
           fileName: "homer.zip"
 
       - name: Unzip and Copy Config
-        run: unzip homer.zip -d homer && cp config.yml homer/assets/
+        run: unzip homer.zip -d homer && cp config.yml homer/assets/ && cp CNAME homer/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
