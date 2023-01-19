@@ -105,16 +105,10 @@ services:
     icon: "fa-solid fa-screwdriver-wrench"
     items:
       - name: "Font Awesome 图标"
-        logo: "https://www.drupal.org/files/project-images/font_awesome_logo.png"
+        icon: "fa-brands fa-square-font-awesome"
         subtitle: "广为使用的 CSS 图标"
         url: "https://fontawesome.com/icons"
         target: "_blank"
-      - name: "上海天气"
-        location: "Shanghai"
-        apikey: "de20ccc646933ede8e0ddb3e5e3d7d09" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "metric"
-        endpoint: "https://homer-demo-content.netlify.app/openweather/weather"
-        type: "OpenWeather"
       - name: "图床"
         logo: "https://smms.app/apple-touch-icon.png"
         subtitle: "国内好用的图床"
