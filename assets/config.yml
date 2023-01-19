@@ -79,8 +79,8 @@ services:
         logo: "https://a.fsdn.com/allura/p/qbittorrent/icon?1518743661?&w=180"
         type: "qBittorrent"
         url: "http://192.168.2.18:18088/"
-        rateInterval: 5000
-        torrentInterval: 10000
+        rateInterval: 2000
+        torrentInterval: 5000
         target: "_blank"
       - name: "WebDAVNav"
         logo: "https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/d6/0f/d6d60fc2-9c40-43cf-6686-27eb418b95d4/AppIcon-0-85-220-4-2x.png/492x0w.webp"
