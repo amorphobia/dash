@@ -1,0 +1,30 @@
+name: Deploy Dashboard
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Download Homer Release
+        uses: robinraju/release-downloader@v1.7
+        with:
+          repository: "bastienwirtz/homer"
+          latest: true
+          fileName: "homer.zip"
+
+      - name: Unzip and Copy Config
+        run: unzip homer.zip -d homer && cp config.yml homer/assets/
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: homer

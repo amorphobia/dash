@@ -1,3 +1,3 @@
 # dash
 
-Personal application dashboard. Visit: https://dash.xuesong.io/
+Personal application dashboard powered by [homer](https://github.com/bastienwirtz/homer). Visit: https://dash.xuesong.io/
