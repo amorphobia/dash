@@ -120,6 +120,8 @@ services:
         subtitle: "国内好用的图床"
         url: "https://smms.app/"
         target: "_blank"
+      - name: "网速测试"
+        type: "SpeedtestTracker"
   - name: "有趣的链接"
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
