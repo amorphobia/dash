@@ -3,7 +3,7 @@
 # See https://fontawesome.com/v5/search for icons options
 
 title: "Dash"
-subtitle: "Xuesong's"
+subtitle: "An Application Dashboard"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -44,7 +44,7 @@ colors:
 message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "👋 欢迎！"
-  content: "这是一个部署在 GitHub Pages 上的自用主页"
+  content: "这是一个部署在 GitHub Pages 上的应用仪表盘（施工中）"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -66,27 +66,41 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "我的应用"
+  - name: "家庭应用"
     icon: "fas fa-cloud"
     items:
       - name: "Baby Buddy"
         logo: "https://s2.loli.net/2023/01/19/fqzOgxiJ8KP9Z5W.png"
+        subtitle: "宝宝记录"
+        keywords: "self hosted"
         url: "http://192.168.2.18:8000/"
+        target: "_blank"
+      - name: "Plex"
+        logo: "https://s2.loli.net/2023/01/18/qudkbYyZiMX3jaT.webp"
+        subtitle: "影视"
+        url: "http://localhost.xuesong.io:12345/web"
+        endpoint: "http://192.168.2.18:8181"
+        type: "Tautulli"
+        apikey: "acaac09e12ac44b59a4c1f9475c54feb"
         target: "_blank"
       - name: "qBittorrent"
         logo: "https://a.fsdn.com/allura/p/qbittorrent/icon?1518743661?&w=180"
         type: "qBittorrent"
-        tag: "sys"
         url: "http://192.168.2.18:18088/"
         rateInterval: 2000
         torrentInterval: 5000
         target: "_blank"
-      - name: "An awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://www.reddit.com/r/selfhosted/"
+      - name: "WebDAVNav"
+        logo: "https://s2.loli.net/2023/01/19/loE5rkTnqi3DAwb.webp"
+        subtitle: "HTPC文件服务"
+        keywords: "self hosted"
+        url: "http://192.168.2.18:18080/"
+        target: "_blank"
+      - name: "AX3600"
+        logo: "https://www.miwifi.com/statics/img/AX3600.png"
+        subtitle: "路由器管理"
+        url: "https://192.168.2.1/"
+        target: "_bpank"
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
