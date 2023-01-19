@@ -99,7 +99,7 @@ services:
       - name: "AX3600"
         logo: "https://www.miwifi.com/statics/img/AX3600.png"
         subtitle: "路由器管理"
-        url: "https://192.168.2.1/"
+        url: "http://192.168.2.1/"
         target: "_blank"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
