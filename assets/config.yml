@@ -99,7 +99,7 @@ services:
       - name: "AX3600"
         logo: "https://www.miwifi.com/statics/img/AX3600.png"
         subtitle: "路由器管理"
-        url: "http://192.168.2.1/"
+        url: "http://192.168.2.1/cgi-bin/luci/web?goto=pc"
         target: "_blank"
       - name: "Ping"
         icon: "fas fa-server"
