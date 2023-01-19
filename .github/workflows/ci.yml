@@ -14,17 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Download Homer Release
-        uses: robinraju/release-downloader@v1.7
+      - name: Checkout Homer
+        uses: actions/checkout@v3
         with:
           repository: "bastienwirtz/homer"
-          latest: true
-          fileName: "homer.zip"
 
-      - name: Unzip and Copy Config
-        run: unzip homer.zip -d homer && cp config.yml homer/assets/ && cp CNAME homer/
+      - name: Build and Copy Config
+        run: yarn install && yarn build && cp config.yml dist/assets/ && cp CNAME dist/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: homer
+          folder: dist
