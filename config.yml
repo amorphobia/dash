@@ -81,7 +81,7 @@ services:
         url: "http://192.168.2.18:8000/"
         target: "_blank"
       - name: "Plex"
-        logo: "https://s2.loli.net/2023/01/18/qudkbYyZiMX3jaT.webp"
+        logo: "https://s2.loli.net/2023/01/20/D1P5H3RN6tWLGJk.png"
         subtitle: "影视"
         url: "http://localhost.xuesong.io:12345/web"
         endpoint: "http://192.168.2.18:33333/http://192.168.2.18:8181"
@@ -96,7 +96,7 @@ services:
         torrentInterval: 5000
         target: "_blank"
       - name: "WebDAVNav"
-        logo: "https://s2.loli.net/2023/01/19/loE5rkTnqi3DAwb.webp"
+        logo: "https://s2.loli.net/2023/01/20/O6uetYBNkK2SzVm.png"
         subtitle: "HTPC文件服务"
         keywords: "self hosted"
         url: "http://192.168.2.18:18080/"
@@ -110,6 +110,8 @@ services:
         icon: "fas fa-server"
         type: "UptimeKuma"
         url: "https://uptime.xuesong.io"
+        subtitle: "Not work due to CORS"
+        target: "_blank"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
