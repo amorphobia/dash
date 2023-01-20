@@ -109,7 +109,7 @@ services:
       - name: "Uptime Kuma"
         icon: "fas fa-server"
         type: "UptimeKuma"
-        url: "https://uptime.xuesong.io/"
+        url: "https://uptime.xuesong.io"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
