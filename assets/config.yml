@@ -43,8 +43,13 @@ colors:
 # Optional message
 message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "🚧 施工中"
-  content: "这是一个部署在 GitHub Pages 上的应用仪表盘"
+  # title: "🚧 施工中"
+  # content: "这是一个部署在 GitHub Pages 上的应用仪表盘"
+  url: "https://v1.hitokoto.cn/?encode=json"
+  mapping:
+    content: "hitokoto"
+  title: "一言"
+  content: "错误：未获取到「一言」"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
