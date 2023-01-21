@@ -110,7 +110,6 @@ services:
         icon: "fas fa-server"
         type: "UptimeKuma"
         url: "https://xuesong-cors-container.fly.dev/https://uptime.xuesong.io"
-        subtitle: "Not work due to CORS"
         target: "_blank"
   - name: "工具"
     icon: "fa-solid fa-screwdriver-wrench"
