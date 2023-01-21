@@ -109,7 +109,7 @@ services:
       - name: "Uptime Kuma"
         icon: "fas fa-server"
         type: "UptimeKuma"
-        url: "https://uptime.xuesong.io"
+        url: "https://xuesong-cors-container.fly.dev/https://uptime.xuesong.io"
         subtitle: "Not work due to CORS"
         target: "_blank"
   - name: "工具"
