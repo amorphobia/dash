@@ -22,7 +22,7 @@ jobs:
           fileName: "homer.zip"
 
       - name: Unzip and Copy Config
-        run: unzip homer.zip -d homer && cp config.yml homer/assets/ && cp CNAME homer/
+        run: unzip homer.zip -d homer && cp config.yml homer/assets/ && cp private-trackers.yml homer/assets/ && cp CNAME homer/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
