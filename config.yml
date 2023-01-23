@@ -3,7 +3,7 @@
 # See https://fontawesome.com/v5/search for icons options
 
 title: "Dash"
-subtitle: "An Application Dashboard"
+subtitle: "一个简单的个人导航页"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -43,8 +43,6 @@ colors:
 # Optional message
 message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  # title: "🚧 施工中"
-  # content: "这是一个部署在 GitHub Pages 上的应用仪表盘"
   url: "https://v1.hitokoto.cn/?encode=json"
   mapping:
     content: "hitokoto"
@@ -54,6 +52,9 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
+  - name: "PT"
+    icon: "fas fa-download"
+    url: "#private-trackers"
   - name: "GitHub"
     icon: "fab fa-github"
     url: "https://github.com/amorphobia"
@@ -61,6 +62,7 @@ links:
   - name: "Blog"
     icon: "fas fa-blog"
     url: "https://blog.xuesong.io"
+    target: "_blank"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   # - name: "another page!"
