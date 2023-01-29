@@ -126,6 +126,11 @@ services:
         subtitle: "国内好用的图床"
         url: "https://smms.app/"
         target: "_blank"
+      - name: "Porkbun"
+        logo: "https://porkbun.com/partners/logos/porkbun.comphpPkl2eU.svg"
+        subtitle: "域名注册与管理"
+        url: "https://porkbun.com/"
+        target: "_blank"
   - name: "有趣的链接"
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
