@@ -92,7 +92,7 @@ services:
       - name: "qBittorrent"
         logo: "https://a.fsdn.com/allura/p/qbittorrent/icon?1518743661?&w=180"
         type: "qBittorrent"
-        url: "http://192.168.2.18:18088/"
+        url: "https://mbp.xuesong.io:18088/"
         rateInterval: 2000
         torrentInterval: 5000
         target: "_blank"
