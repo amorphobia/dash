@@ -85,7 +85,7 @@ services:
       - name: "Plex"
         logo: "https://s2.loli.net/2023/01/20/D1P5H3RN6tWLGJk.png"
         url: "http://localhost.xuesong.io:12345/web"
-        endpoint: "https://mbp.xuesong.io:33333/https://mbp.xuesong.io:8181"
+        endpoint: "http://192.168.2.18:33333/http://192.168.2.18:8181"
         type: "Tautulli"
         apikey: "acaac09e12ac44b59a4c1f9475c54feb"
         target: "_blank"
