@@ -131,6 +131,11 @@ services:
         subtitle: "域名注册与管理"
         url: "https://porkbun.com/"
         target: "_blank"
+      - name: "子网掩码计算器"
+        icon: "fas fa-network-wired"
+        subtitle: "IPv4"
+        url: "https://tool.chinaz.com/tools/subnetmask"
+        target: "_blank"
   - name: "有趣的链接"
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
