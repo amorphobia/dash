@@ -135,7 +135,7 @@ services:
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
       - name: "安娜的档案"
-        logo: "https://xuesong-cors-container.fly.dev/https://zh.annas-archive.org/apple-touch-icon.png"
+        logo: "https://s2.loli.net/2023/01/30/TQgzK1lya9wmvr8.png"
         subtitle: "🔍影子图书馆搜索引擎"
         url: "https://zh.annas-archive.org"
         target: "_blank"
