@@ -135,8 +135,8 @@ services:
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
       - name: "安娜的档案"
-        icon: "fas fa-book"
-        subtitle: "🔍影子图书馆搜索引擎：书籍、论文、漫画、杂志。 ⭐️ Z-Library、Library Genesis、Sci-Hub。"
+        logo: "https://zh.annas-archive.org/apple-touch-icon.png"
+        subtitle: "🔍影子图书馆搜索引擎"
         url: "https://zh.annas-archive.org"
         target: "_blank"
       - name: "Awesome selfhosted"
