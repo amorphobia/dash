@@ -92,7 +92,7 @@ services:
       - name: "qBittorrent"
         logo: "https://a.fsdn.com/allura/p/qbittorrent/icon?1518743661?&w=180"
         type: "qBittorrent"
-        url: "http://192.168.2.18:18088/"
+        url: "http://192.168.2.168:18088/"
         rateInterval: 2000
         torrentInterval: 5000
         target: "_blank"
@@ -100,7 +100,7 @@ services:
         logo: "https://s2.loli.net/2023/01/20/O6uetYBNkK2SzVm.png"
         subtitle: "HTPC文件服务"
         keywords: "self hosted"
-        url: "http://192.168.2.18:18080/"
+        url: "http://192.168.2.168:18080/"
         target: "_blank"
       - name: "AX3600"
         logo: "https://s2.loli.net/2023/01/29/qFtgRPjNhQ2CyL1.png"
