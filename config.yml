@@ -136,6 +136,11 @@ services:
         subtitle: "IPv4"
         url: "https://tool.chinaz.com/tools/subnetmask"
         target: "_blank"
+      - name: "Regexper"
+        logo: "https://regexper.com/favicon.ico"
+        subtitle: "正则表达式可视化"
+        url: "https://regexper.com/"
+        target: "_blank"
   - name: "有趣的链接"
     icon: "fas fa-solid fa-arrow-up-right-from-square"
     items:
